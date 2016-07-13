@@ -1,7 +1,7 @@
 source 'http://rubygems.org'
 
-gem 'reactive-ruby', '0.7.40'
+gem 'reactrb'
+gem 'reactrb-router', git: 'https://github.com/reactrb/reactrb-router.git', branch: 'v2-4-0'
 gem 'sinatra'
+gem 'opal', '0.9.4'
 gem 'opal-jquery'
-gem 'reactive-router'
-gem 'opal-rails'
