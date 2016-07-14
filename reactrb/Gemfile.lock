@@ -28,7 +28,7 @@ GEM
     rack (1.6.4)
     rack-protection (1.5.3)
       rack
-    reactrb (0.8.7)
+    reactrb (0.8.8)
       opal (>= 0.8.0)
       opal-activesupport (>= 0.2.0)
       opal-browser (= 0.2.0)

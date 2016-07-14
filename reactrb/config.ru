@@ -7,7 +7,7 @@ Bundler.require
 
 opal = Opal::Server.new {|s|
   s.append_path 'app'
-  s.main = 'show'
+  s.main = 'app'
 }
 
 sprockets   = opal.sprockets
@@ -33,7 +33,7 @@ get '/*' do
     <html>
       <head>
         <title>Example: #{example}.rb</title>
-        #{::Opal::Sprockets.javascript_include_tag('show', sprockets: sprockets, prefix: prefix, debug: true)}
+        #{::Opal::Sprockets.javascript_include_tag('app', sprockets: sprockets, prefix: prefix, debug: true)}
       </head>
       <body>
         <div id="content"></div>
