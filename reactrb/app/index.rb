@@ -3,7 +3,7 @@ class Index < React::Component::Base
     # puts "mounted the show method"
     div do
       div do
-        AppRouter::Link("basics") { "Basics" }; br
+        App::Link("basics") { "Basics" }; br
         # link(to: "reuse") { "Reusable Components" }; br
         # link(to: "rerendering") { "Rerendering Test" }; br
         # link(to: "nodes") { "Saving and using rendered nodes" }; br
